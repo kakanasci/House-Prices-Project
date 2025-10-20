@@ -43,4 +43,4 @@ Top 10 variáveis mais importantes para prever o preço de venda dos imóveis:
    O gráfico de importância de features mostra que **Qualidade Geral (OverallQual)** e **Área Total (TotalSF)** são os fatores-chave que determinam o preço do imóvel.  
 
 3. **Robustez Comprovada:**  
-   Validação Cruzada (CV) garante que o modelo seja estável, generalize bem e não apresente overfitting.  
+   Validação Cruzada (CV) garante que o modelo seja estável, generalize bem e não apresente overfitting.
