@@ -1,39 +1,46 @@
-Projeto de Análise Preditiva de Preços de Imóveis (House Prices - Kaggle)
+# Projeto de Análise Preditiva de Preços de Imóveis (House Prices - Kaggle)
 
-Principais Gráficos do Projeto
-Visualização de Dados Faltantes
+## Descrição e Objetivo
+Este projeto demonstra um ciclo completo de **Data Science**, com foco em:  
+- Análise Exploratória de Dados (EDA)  
+- Engenharia de Recursos (Feature Engineering)  
+- Modelagem Preditiva (Regressão Avançada)  
 
-Mostra as colunas com maior quantidade de dados ausentes e a proporção de missing values:
+O objetivo não foi apenas prever o preço de venda, mas **identificar e comunicar os principais fatores (drivers)** que influenciam o valor de um imóvel, traduzindo resultados complexos de Machine Learning em insights claros para o negócio.
 
-<img width="989" height="490" alt="image" src="https://github.com/user-attachments/assets/dace7622-e63f-45d9-89be-911a74798f27" />
+---
 
-Importância das Features
+## Habilidades Técnicas e Ferramentas
+- **Python:** Pandas, NumPy  
+- **Visualização:** Matplotlib, Seaborn  
+- **Modelagem Preditiva:** XGBoost  
+- **Validação:** Cross-Validation (CV)
 
-Top 10 variáveis mais importantes para prever o preço de venda dos imóveis:
+---
 
-Destaca que Qualidade Geral (OverallQual) e Área Total (TotalSF) são os fatores-chave que determinam o valor do imóvel.
+## Principais Gráficos do Projeto
 
+### Visualização de Dados Faltantes
+Mostra as colunas com maior quantidade de dados ausentes e a proporção de missing values:  
 
-Descrição e Objetivo
+<img width="989" height="490" alt="Visualização de Dados Faltantes" src="https://github.com/user-attachments/assets/dace7622-e63f-45d9-89be-911a74798f27" />
 
-Este projeto demonstra um ciclo completo de Data Science, com foco em Análise Exploratória de Dados (EDA), Engenharia de Recursos (Feature Engineering) e Modelagem Preditiva (Regressão Avançada).
+---
 
-O objetivo não foi apenas prever o preço de venda, mas sim identificar e comunicar os principais fatores (drivers) que influenciam o valor de um imóvel, traduzindo resultados complexos de Machine Learning em insights claros para o negócio.
+### Importância das Features
+Top 10 variáveis mais importantes para prever o preço de venda dos imóveis:  
 
-Habilidades Técnicas e Ferramentas
-Python (Pandas, NumPy)
+<img width="989" height="590" alt="Importância de Features" src="https://github.com/user-attachments/assets/f43a8be6-aa6c-4878-84c5-b906f9ba1e66" />
 
-Visualização (Matplotlib, Seaborn)
+---
 
-Modelagem Preditiva (XGBoost)
+## Conclusões e Destaques
 
-Validação (Cross-Validation - CV)
+1. **Feature Engineering e Tratamento de Dados:**  
+   Criação de variáveis de alto impacto, como `TotalSF`, e imputação lógica de dados faltantes baseada em análise visual.  
 
-Conclusões e Destaques 
+2. **Interpretabilidade do Modelo:**  
+   O gráfico de importância de features mostra que **Qualidade Geral (OverallQual)** e **Área Total (TotalSF)** são os fatores-chave que determinam o preço do imóvel.  
 
-1. Feature Engineering e Tratamento de Dados: Utilizei técnicas avançadas para criar variáveis de alto impacto, como a métrica de área total (TotalSF), e realizei a imputação de dados faltantes de forma lógica, justificada por análise visual.
-
-2. Interpretabilidade do Modelo: O projeto utiliza o gráfico de Importância de Features para provar que a Qualidade Geral (OverallQual) e a Área Total são os fatores-chave que ditam o valor de mercado dos imóveis.
-
-3. Robustez Comprovada: A Validação Cruzada (CV) foi aplicada para garantir que o modelo seja estável, generalize bem e não apresente overfitting, garantindo a confiança nas previsões.
-<img width="989" height="490" alt="image" src="https://github.com/user-attachments/assets/b611d763-a866-4f6b-8aea-39e71bfb740b" />
+3. **Robustez Comprovada:**  
+   Validação Cruzada (CV) garante que o modelo seja estável, generalize bem e não apresente overfitting.  
