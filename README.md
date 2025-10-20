@@ -5,7 +5,7 @@ Visualização de Dados Faltantes
 
 Mostra as colunas com maior quantidade de dados ausentes e a proporção de missing values:
 
-Demonstra capacidade de identificar e tratar dados ausentes de forma lógica e consistente.
+<img width="989" height="490" alt="image" src="https://github.com/user-attachments/assets/dace7622-e63f-45d9-89be-911a74798f27" />
 
 Importância das Features
 
